@@ -1,0 +1,176 @@
+html {
+	margin-top: -10px;
+	margin-right: -12px;
+	margin-left: -10px;
+	margin-bottom: -10px;
+
+}
+
+
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	background-color: blue;
+	width: 100%;
+}
+ 
+
+
+#headerButtons {
+	margin-right: 8px;
+}
+
+#logo {
+	font-family: 'Gugi', cursive;
+	margin-left: 5px;
+}
+
+.btn {
+	margin-top: 5px;
+	height: 80%;
+}
+
+
+
+#logIn {
+	background-color: #CFE3FC;
+	color: #5691D3;
+}
+
+#signIn {
+	background-color: #0E75EE;
+	color: #FFFFFF;
+}
+
+#headerItems {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.headerItem {
+	color: white;
+}
+
+#currencyBar {
+	display: flex;
+	justify-content: space-between;
+	background-color: #EDE1E1;
+	font-family: 'Oswald', sans-serif;
+	padding: 0px 15px 0px 15px;
+
+}
+
+
+
+#newsItems {
+	display: flex;
+	justify-content: space-between;
+	background-color: #F9D7A4;
+	font-family: 'Oswald', sans-serif;
+}
+
+.newsItem {
+	text-decoration: underline;
+}
+
+#marketArea {
+	display: flex;
+	
+
+
+}
+
+#sideBar {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	background-color: #05026D;
+	color: #9D9DC9;
+	font-family: 'Anton', sans-serif;
+	padding: 5px;
+}
+
+#sideBar p:hover {
+	color: white;
+	font-size: 24px;
+
+}
+
+#marketMain {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+#marketInfo {
+	display: flex;
+	justify-content: space-between;
+	
+	padding: 10px;
+	margin-left: 20px;
+	height: 30px;
+	border-bottom: 1px solid black;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.infoItem {
+	height: 15px;
+}
+
+.coin {
+	display: flex;
+	justify-content: space-between;
+	
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 30px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.coin2 {
+	display: flex;
+	justify-content: space-between;
+	
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 30px;
+	background-color: #EAE8E8;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.coin:hover {
+	border: .5px solid black;
+	background-color: #819BF9;
+	color: white;
+}
+
+.coin2:hover {
+	border: .5px solid black;
+	background-color: #819BF9;
+	color: white;
+}
+
+.positive {
+	color: #2CFF02;
+}
+
+.negative {
+	color: #F94F66;
+}
+
+#footer {
+	text-align: center;
+	background-color: blue;
+	color: white;
+	height: 100%;
+
+}
